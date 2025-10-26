@@ -1,0 +1,57 @@
+/* BTPPT Styles - Billtrust PowerPoint CSS Variables */
+
+:root {
+  /* Brand Colors */
+  --bt-dark-primary: #001820;
+  --bt-light-primary: #FFFFFF;
+  --bt-dark-secondary: #006E53;
+  --bt-light-secondary: #E7EDED;
+  --bt-neon-green: #17FF9B;
+  --bt-deep-purple: #4934BA;
+  --bt-light-purple: #B79BFF;
+  --bt-rich-blue: #0054B3;
+  --bt-sky-blue: #47C5FF;
+  --bt-dark-teal: #004C51;
+  
+  /* Gradients */
+  --bt-gradient-purple: linear-gradient(135deg, #4934BA 0%, #6B60E0 100%);
+  --bt-gradient-teal: linear-gradient(135deg, #006E53 0%, #004C51 100%);
+  --bt-gradient-blue: linear-gradient(135deg, #0054B3 0%, #47C5FF 100%);
+  
+  /* Typography */
+  --font-primary: 'Aptos', 'Calibri', sans-serif;
+  --font-display: 'Aptos Display', 'Calibri', sans-serif;
+  --text-title-large: 54pt;
+  --text-title: 32pt;
+  --text-body: 16pt;
+  
+  /* Spacing */
+  --spacing-sm: 16px;
+  --spacing-md: 24px;
+  --spacing-lg: 40px;
+  --spacing-xl: 60px;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--bt-dark-primary);
+  width: 960px;
+  height: 540px;
+}
+
+.title-slide {
+  background: var(--bt-gradient-purple);
+  color: white;
+  padding-left: var(--spacing-xl);
+}
+
+.section-divider {
+  background: var(--bt-deep-purple);
+  color: white;
+}
+
+.accent-line {
+  width: 80px;
+  height: 4px;
+  background: var(--bt-neon-green);
+}
